@@ -1,0 +1,269 @@
+
+
+.headed{
+  margin: auto 160px;
+}
+/* navbar */
+.nav{
+  background-color: #170C2A;
+  height: 88px;
+  width: 100%;
+}
+
+
+.container{
+  display: flex;
+  width: 100%;
+  gap: 96px;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+}
+.tag{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.top{
+  color: #FF6435;
+  font-weight: bold;
+}
+.tagline{
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+  width: 524px;
+}
+.primary-btn{
+  background-color: #FF6435;
+  padding: 16px 24px;
+  color: white;
+  border: none;
+  border-radius: 28px;
+  font-size: 16px;
+  font-weight: 600;
+
+margin-top: 16px;
+}
+
+
+/* about */
+.about{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.about-head{
+  color: #FF6435;
+  font-weight: bold;
+}
+.compare{
+  font-size: 48px;
+  font-weight: bold;
+}
+.about-desc{
+  font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+width: 736px;
+margin: auto;
+color: #666;
+}
+.feature{
+  display: flex;
+  width: max-content;
+  padding: 8px 24px;
+  align-items: center;
+  margin:32px  auto;
+  gap: 16px;  
+  border-radius: 16px;
+  box-shadow: 0px 30px 49px -22px rgba(0, 0, 0, 0.10), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+}
+.fea{
+  display: flex;
+width: 429px;
+padding-right: 0px;
+align-items: flex-start;
+gap: 10px;
+}
+.qoruz,.grin{
+  display: flex;
+width: 132px;
+padding: 6px 4px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+align-self: stretch;
+}
+.detail{
+  box-shadow: none;
+  background-color: rgba(255, 181, 160, 0.10);
+  border-radius: 0;
+  border: none;
+}
+.item1{
+  color: #666;
+  font-weight: normal;
+}
+
+.reason{
+  margin: 96px auto;
+}
+.tabs{
+display: flex;
+justify-content: space-between;
+margin-top: 48px;
+}
+.tabspan{
+  display: flex;
+gap: 48px;
+
+}
+.btns{
+padding: 4px 0;
+background-color: white;
+border: none;
+
+cursor: pointer;
+}
+.btns:focus{
+  border-radius: 1px;
+  border-bottom: 3px solid  #FF6435;
+}
+.tab-heading{
+  font-size: 32px;
+  font-weight: bold;
+}
+.tab-desc{
+  width: 470px;
+}
+.power{
+  margin: 96px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* contact */
+.contact{
+  margin: 44px auto 144px;
+  display: flex;
+  justify-content: center;
+}
+.card
+{
+  width: 1024px;
+height: 320px;
+border-radius: 32px;
+background: linear-gradient(180deg, #DF9C1B 0%, rgba(255, 54, 223, 0.61) 100%);
+backdrop-filter: blur(7.5px);
+overflow: visible;
+}
+.data{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 45px auto;
+  align-items: center;
+}
+.data p{
+  font-size: 52px;
+  font-weight: bold;
+  color: white;
+  width: 437px;
+}
+.data button{
+  background: rgba(74, 15, 15, 0.50);
+box-shadow: 0px 1.62442147731781px 4.873264312744141px 0px rgba(0, 0, 0, 0.20), 0px 32.48843002319336px 38.986114501953125px -11.370949745178223px rgba(0, 0, 0, 0.30);
+backdrop-filter: blur(8.12210750579834px);
+font-size: 32px;
+}
+
+/* footer */
+.footer{
+  padding: 48px auto;
+  justify-content: center;
+  display: flex;
+  gap: 131px;
+  background-color: #170C2A;
+}
+.foot1{
+  display: block;
+  gap: 28px;
+  width: 285px;
+  color: #666;
+}
+.foot1,.foot2,.foot3,.foot4{
+  margin: 48px 0;
+
+}
+ul{
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+
+}
+.list{
+  text-decoration-style: none;
+  text-decoration: none;
+  list-style: none;
+  padding: 4px 0px;
+}
+.link{
+  text-decoration-style: none;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+@media screen and (max-width:600px) {
+  .App{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: auto;
+  }
+  .headed{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin: auto;
+  }
+  .nav{
+    width: max-content;
+  }
+  .container,.about,.reason,.power,.contact,.footer,.tabs{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    justify-items: center;
+    
+    align-items: center;
+    /* margin-top: ; */
+  }
+  .tagline{
+    width: 100%;
+    /* font-size: 20px; */
+  }
+  .card{
+    width: 342px;
+  }
+  .fea{
+    width: auto;
+  }
+  .about-desc{
+    width: auto;
+  }
+  .data p{
+    font-size: 20px;
+  }
+  .imagee{
+    width: 100%
+  }
+
+}
