@@ -61,7 +61,7 @@ List the technologies and frameworks used to develop the application. For exampl
 - React.js
 - CSS
 - HTML(JSX)
-- Vercel(hor hosting purpose)
+- Vercel(for hosting purpose)
 
 As asked, I haven't used any CSS framework. This webpage is made completely from custom CSS.
 
