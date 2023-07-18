@@ -4,10 +4,82 @@
   margin: auto 160px;
 }
 /* navbar */
-.nav{
-  background-color: #170C2A;
-  height: 88px;
-  width: 100%;
+
+
+.navigation {
+  height: 60px;
+  /* width: 100%; */
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  position: relative;
+  padding: 1rem 160px;
+  background-color: #170C2A;;
+  color: white;
+}
+
+.brand-name {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+ 
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+  
+}
+.button{
+  position: absolute;
+  top: 0;
+  right: 160px;
+  display: flex;
+  justify-content: center;
+margin-top: 4px;
+}
+.navigation-menu li {
+  /* // removes default disc bullet for li tags and applies margin to left & right side */
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+  /* // increases the surface area of the anchor tag to span more than just the anchor text */
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: white;
+
+}
+select{
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.hamburger {
+  /* // removes default border on button element */
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #FF6435;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+/* // positions the icon to the right and center aligns it vertically */
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #FF6435;
 }
 
 
@@ -170,7 +242,8 @@ cursor: pointer;
   width: 1024px;
 height: 320px;
 border-radius: 32px;
-background: linear-gradient(180deg, #DF9C1B 0%, rgba(255, 54, 223, 0.61) 100%);
+background-image: url(./assets/contact.svg) ;
+background-size: cover;
 backdrop-filter: blur(7.5px);
 overflow: visible;
 }
@@ -272,9 +345,59 @@ ul{
     margin:  auto;
     text-align: center;
   }
-  .nav{
-    width: 100%;
+  .hamburger {
+    display: block;
   }
+  .navigation-menu ul {
+    /* // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+    position: absolute;
+    top: 75px;
+    left: 0;
+    /* // stacks the li tags vertically  */
+    flex-direction: column;
+   /* // makes menu span full height and width */
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid black;
+    display: none;
+    z-index: 1;
+  }
+  .navigation-menu li {
+    /* // centers link text and strips off margin */
+    text-align: center;
+    margin: 0;
+  }
+  .navigation-menu li a {
+    color: black;
+    /* // increases the surface area of the anchor tag to span the full width of the menu */
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigation-menu li:hover {
+    background-color: #eee;
+  }
+  .navigation-menu.expanded ul {
+    display: block;
+  }
+  .button{
+    display: none;
+  }
+  .navigation{
+    padding: 1rem ;
+
+  }
+  select{
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1.5rem 0;
+
+  }
+
   .container,.about,.reason,.power,.contact,.footer,.tabs{
     display: grid;
     grid-template-columns: auto;
@@ -285,8 +408,15 @@ ul{
     align-items: center;
     margin: 48px auto;
   }
+  .container{
+    gap: 24px;
+  }
   .tagline{
     width: auto;
+    font-size: 32px;
+  }
+  .compare{
+    width: 80%;
     font-size: 32px;
   }
   .card{
@@ -358,9 +488,9 @@ ul{
     margin: auto;
     display: flex;
   }
-  .primary-btn.footer-btn{
+ .footer-btn{
     display: flex;
-    justify-content: flex-start;
+    justify-content: left;
   }
   .data{
     display: flex;
@@ -375,11 +505,17 @@ ul{
   font-weight: bold;
 text-align: left;
   }
+  .data button{
+    font-size: 20px;
+  }
   .faq-section{
     margin: auto;
     width: 90%;
   }
   .power{
     gap: 24px;
+  }
+  .power .tagline{
+    text-align: left;
   }
 }
