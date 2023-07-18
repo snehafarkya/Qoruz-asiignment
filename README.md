@@ -13,7 +13,7 @@ This static web page, hosted at [https://qoruz-asiignment.vercel.app/](https://q
 - [Technologies Used](#technologies-used)
 - [Gratitude](#gratitude)
 
-##🎯 Features
+## 🎯Features
 
 This web application offers the following features:
 
