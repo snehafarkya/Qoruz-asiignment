@@ -282,8 +282,9 @@ font-size: 32px;
   font-weight: bold;
   border-bottom: 2px solid rgba(153, 153, 153, 0.20);
 }
-.faq-title span{
-  width: 80%;
+.content{
+  
+  font-weight: 400;
 }
 
 /* footer */
@@ -517,5 +518,9 @@ text-align: left;
   }
   .power .tagline{
     text-align: left;
+  }
+  .foot-btn{
+    display: flex;
+    justify-content: left;
   }
 }

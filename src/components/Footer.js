@@ -37,11 +37,13 @@ export default function Footer() {
 
           </ul>
           <p className='top'>For influencer</p>
+          <div className="foot-btn">
             <button className="primary-btn footer-btn">
               Create my profile <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
               <path d="M11.9 0.845432C11.9 0.749978 11.8 0.654523 11.7 0.559069C11.6 0.463614 11.5 0.36816 11.4 0.36816C11.3 0.272705 11.1 0.272705 11 0.272705H2C1.4 0.272705 1 0.654523 1 1.22725C1 1.79998 1.4 2.1818 2 2.1818H8.6L0.3 10.1045C-0.1 10.4863 -0.1 11.0591 0.3 11.4409C0.5 11.6318 0.7 11.7273 1 11.7273C1.3 11.7273 1.5 11.6318 1.7 11.4409L10 3.51816V9.81816C10 10.3909 10.4 10.7727 11 10.7727C11.6 10.7727 12 10.3909 12 9.81816V1.22725C12 1.1318 12 0.940887 11.9 0.845432Z" fill="#FF6435"/>
             </svg>
             </button>
+            </div>
         </div>
         <div className="foot3">
         <p className='top'>For Business</p>
