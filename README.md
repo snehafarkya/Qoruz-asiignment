@@ -4,7 +4,7 @@
 
 Hey, this is my Frontend Assignment from Qoruz!
 
-This static web page, hosted at [https://qoruz-asiignment.vercel.app/](https://qoruz-asiignment.vercel.app/), is designed to fulfill the requirements of the my assignment. This web page is mobile responsive as well. I've converted figma designs into pixel perfect page. There is a possiblity that you might find some odds but I gave it my best. The purpose of this document is to provide an overview of the project and guide you through the features and functionality of the application.
+This static web page, hosted at [https://qoruz-assignment.vercel.app/](https://qoruz-assignment.vercel.app/), is designed to fulfill the requirements of the my assignment. This web page is mobile responsive as well. I've converted figma designs into pixel perfect page. There is a possiblity that you might find some odds but I gave it my best. The purpose of this document is to provide an overview of the project and guide you through the features and functionality of the application.
 
 ## Table of Contents
 
@@ -70,5 +70,5 @@ As asked, I haven't used any CSS framework. This webpage is made completely from
 I extend my gratitude to the team for considering me. I have almost covered everything mentioned in the design. I am open for reviews and suggestions. However,If you have any questions, suggestions, or concerns about the project, feel free to contact me.
 
 - Email: [snhafarkya@gmail.com](mailto:snhafarkya@gmail.com)
-- Live link: [here](https://qoruz-asiignment.vercel.app/)
+- Live link: [here](https://qoruz-assignment.vercel.app/)
 I appreciate your interest and welcome any feedback you may have.
