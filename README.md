@@ -1,5 +1,5 @@
 
-# Frontend Developer Assignment: Qoruz
+# Frontend Developer Assignment 📜: Qoruz
 ![Image](./src/assets/qoruz%20ss.png)
 
 Hey, this is my Frontend Assignment from Qoruz!
@@ -10,12 +10,10 @@ This static web page, hosted at [https://qoruz-asiignment.vercel.app/](https://q
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 - [Gratitude](#gratitude)
 
-## Features
+##🎯 Features
 
 This web application offers the following features:
 
@@ -25,7 +23,7 @@ This web application offers the following features:
 
 Feel free to explore the application to discover more features and functionalities.
 
-## Getting Started
+## 💥Getting Started
 
 To run the application locally on your machine, follow the steps below:
 
@@ -55,13 +53,8 @@ To run the application locally on your machine, follow the steps below:
 
 5. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to access the application.
 
-## Usage
 
-Explain how to use the application and any specific instructions or guidelines for users. For example, you can provide step-by-step instructions on how to navigate through different pages, perform actions, or input data.
-
-Make sure to include any necessary credentials or access requirements if applicable.
-
-## Technologies Used
+## 👩‍💻Technologies Used
 
 List the technologies and frameworks used to develop the application. For example:
 
@@ -72,11 +65,7 @@ List the technologies and frameworks used to develop the application. For exampl
 
 As asked, I haven't used any CSS framework. This webpage is made completely from custom CSS.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Gratitude
+## ⚡Gratitude
 
 I extend my gratitude to the team for considering me. I have almost covered everything mentioned in the design. I am open for reviews and suggestions. However,If you have any questions, suggestions, or concerns about the project, feel free to contact me.
 
