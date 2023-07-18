@@ -303,4 +303,7 @@ ul{
     width: 80%;
     text-align: center;
   }
+  .primary-btn{
+   justify-content: center;
+  }
 }
