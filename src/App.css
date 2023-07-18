@@ -2,13 +2,10 @@
   --primary-color:#FF6435;
   --secondary-color: #170C2A;
 }
-
 .headed{
   margin: auto 160px;
 }
 /* navbar */
-
-
 .navigation {
   height: 60px;
   /* width: 100%; */
@@ -84,8 +81,7 @@ select{
 .hamburger:hover {
   background-color: var(--primary-color);
 }
-
-
+/* hero section */
 .container{
   display: flex;
   width: 100%;
@@ -97,13 +93,11 @@ select{
 .tag{
   display: flex;
   flex-direction: column;
-  /* align-items: flex-start;  */
   gap: 4px;
 }
 .top{
   color: var(--primary-color);
   font-weight: bold;
-
 }
 .tagline{
   color: black;
@@ -114,8 +108,8 @@ select{
 }
 .svg{
   position: absolute;
-  
 }
+
 .primary-btn{
   background-color: var(--primary-color);
   padding: 16px 24px;
@@ -131,14 +125,12 @@ margin-top: 16px;
 justify-content: center;
 }
 
-
 /* about */
 .about{
   justify-content: center;
   display: flex;
   flex-direction: column;
   text-align: center;
-
 }
 .about-head{
   color: var(--primary-color);
@@ -196,7 +188,6 @@ align-self: stretch;
   font-weight: normal;
 }
 /* reason */
-
 .reason{
   margin: 96px auto;
 }
@@ -207,15 +198,14 @@ margin-top: 48px;
 }
 .tabspan{
   display: flex;
-gap: 48px;
+  gap: 48px;
 
 }
 .btns{
-padding: 4px 0;
-background-color: white;
-border: none;
-
-cursor: pointer;
+  padding: 4px 0;
+  background-color: white;
+  border: none;
+  cursor: pointer;
 }
 .btns:focus{
   border-radius: 1px;
@@ -233,7 +223,6 @@ cursor: pointer;
   display: flex;
   justify-content: space-between;
 }
-
 /* contact */
 .contact{
   margin: 44px auto 144px;
@@ -243,12 +232,12 @@ cursor: pointer;
 .card
 {
   width: 1024px;
-height: 320px;
-border-radius: 32px;
-background-image: url(./assets/contact.svg) ;
-background-size: cover;
-backdrop-filter: blur(7.5px);
-overflow: visible;
+  height: 320px;
+  border-radius: 32px;
+  background-image: url(./assets/contact.svg) ;
+  background-size: cover;
+  backdrop-filter: blur(7.5px);
+  overflow: visible;
 }
 .data{
   display: flex;
@@ -264,11 +253,10 @@ overflow: visible;
 }
 .data button{
   background: rgba(74, 15, 15, 0.50);
-box-shadow: 0px 1.62442147731781px 4.873264312744141px 0px rgba(0, 0, 0, 0.20), 0px 32.48843002319336px 38.986114501953125px -11.370949745178223px rgba(0, 0, 0, 0.30);
-backdrop-filter: blur(8.12210750579834px);
-font-size: 32px;
+  box-shadow: 0px 1.62442147731781px 4.873264312744141px 0px rgba(0, 0, 0, 0.20), 0px 32.48843002319336px 38.986114501953125px -11.370949745178223px rgba(0, 0, 0, 0.30);
+  backdrop-filter: blur(8.12210750579834px);
+  font-size: 32px;
 }
-
 /* faqs  */
 .left{
   display: flex;
@@ -286,7 +274,6 @@ font-size: 32px;
   border-bottom: 2px solid rgba(153, 153, 153, 0.20);
 }
 .content{
-  
   font-weight: 400;
 }
 
@@ -353,13 +340,10 @@ ul{
     display: block;
   }
   .navigation-menu ul {
-    /* // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
     position: absolute;
     top: 75px;
     left: 0;
-    /* // stacks the li tags vertically  */
     flex-direction: column;
-   /* // makes menu span full height and width */
     width: 100%;
     height: calc(100vh - 77px);
     background-color: white;
@@ -368,13 +352,11 @@ ul{
     z-index: 1;
   }
   .navigation-menu li {
-    /* // centers link text and strips off margin */
     text-align: center;
     margin: 0;
   }
   .navigation-menu li a {
     color: black;
-    /* // increases the surface area of the anchor tag to span the full width of the menu */
     width: 100%;
     padding: 1.5rem 0;
   }
@@ -389,7 +371,6 @@ ul{
   }
   .navigation{
     padding: 1rem ;
-
   }
   select{
     background-color: transparent;
@@ -401,20 +382,16 @@ ul{
     padding: 1.5rem 0;
 
   }
-
   .container,.about,.reason,.power,.contact,.footer,.tabs{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     justify-items: center;
-    /* margin: auto; */
     text-align: center;
     align-items: center;
     margin: 48px auto;
   }
-  .container{
-    gap: 24px;
-  }
+  .container{gap: 24px;}
   .tagline{
     width: auto;
     font-size: 32px;
@@ -423,21 +400,11 @@ ul{
     width: 80%;
     font-size: 32px;
   }
-  .card{
-    width: 342px;
-  }
-  .fea{
-    width: auto;
-  }
-  .about-desc{
-    width: auto;
-  }
-  .data p{
-    font-size: 20px;
-  }
-  .imagee{
-    width: 80%
-  }
+  .card{width: 342px;}
+  .fea{width: auto;}
+  .about-desc{width: auto; }
+  .data p{font-size: 20px;}
+  .imagee{ width: 80%}
   .footer{
     display: grid;
     grid-template-columns: auto;
@@ -453,22 +420,15 @@ ul{
   width: 100%;
 
   }
-  .foot1,.foot2,.foot3,.foot4{
-    margin: 0px 0;
-  }
+  .foot1,.foot2,.foot3,.foot4{ margin: 0px 0;}
   .feature, .detail{
     /* width: 80%; */
     margin: 16px 0;
     font-size: 12px;
     justify-content: center;
   }
-  .fea{
-    width: 170px;
-  }
-  .qoruz,.grin{
-    width: 64px;
-
-  }
+  .fea{width: 170px;}
+  .qoruz,.grin{width: 64px;}
   .about-desc{
     width: 80%;
     text-align: center;
@@ -506,8 +466,8 @@ ul{
   .data p{
     width: 100%;
     font-size: 32px;
-  font-weight: bold;
-text-align: left;
+    font-weight: bold;
+    text-align: left;
   }
   .data button{
     font-size: 20px;
@@ -516,12 +476,8 @@ text-align: left;
     margin: auto;
     width: 90%;
   }
-  .power{
-    gap: 24px;
-  }
-  .power .tagline{
-    text-align: left;
-  }
+  .power{gap: 24px;}
+  .power .tagline{text-align: left;}
   .foot-btn{
     display: flex;
     justify-content: left;
