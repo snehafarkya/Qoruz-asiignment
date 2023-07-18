@@ -1,5 +1,6 @@
 
-# Qoruz Assignment
+# Frontend Developer Assignment: Qoruz
+![Image](./src/assets/qoruz%20ss.png)
 
 Hey, this is my Frontend Assignment from Qoruz!
 
