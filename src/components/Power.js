@@ -1,5 +1,6 @@
 import React from 'react'
 import power from '../assets/power.svg'
+import Faq from './Faq'
 export default function Power() {
   return (
     <div>
@@ -11,6 +12,7 @@ export default function Power() {
         </svg>
         influencer marketing <br /> for your brand with <br />Qoruz!</span>
 
+         <Faq/> 
         </div>
         <div className="powerImage">
           <img src={power} alt="" className='imagee'/>
