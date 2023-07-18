@@ -9,6 +9,7 @@ export const TabSelector = ({
     className="btns"
     onClick={onClick}
   >
+    
     {children}
   </button>
 );

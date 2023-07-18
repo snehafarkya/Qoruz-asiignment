@@ -16,7 +16,7 @@ export default function Contact() {
 </svg> */}
 <div className="data">
   <p>Don't miss out on our platform's full potential</p>
-  <button className='primary-btn'>Sign in now ➡</button>
+  <button className='primary-btn'>Sign in now </button>
 </div>
 
         </div>

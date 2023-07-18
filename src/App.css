@@ -22,18 +22,24 @@
 .tag{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start;  */
   gap: 4px;
 }
 .top{
   color: #FF6435;
   font-weight: bold;
+
 }
 .tagline{
   color: black;
   font-size: 48px;
   font-weight: bold;
   width: 524px;
+  line-height: normal;
+}
+.svg{
+  position: absolute;
+  
 }
 .primary-btn{
   background-color: #FF6435;
@@ -43,7 +49,9 @@
   border-radius: 28px;
   font-size: 16px;
   font-weight: 600;
-
+  display: flex;
+  gap: 7px;
+  align-items: center;
 margin-top: 16px;
 }
 
@@ -197,6 +205,10 @@ font-size: 32px;
   width: 285px;
   color: #666;
 }
+.flex-foot-icons{
+  display: flex;
+  gap: 14px;
+}
 .foot1,.foot2,.foot3,.foot4{
   margin: 48px 0;
 
@@ -220,19 +232,24 @@ ul{
   color: white;
   text-align: left;
 }
+.footer-btn{
+  background-color: white;
+  color:#FF6435;
+}
 
 @media screen and (max-width:600px) {
   .App{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    margin: auto;
+    margin: 48px 24px;
   }
   .headed{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     margin: auto;
+    text-align: center;
   }
   .nav{
     width: max-content;
@@ -242,13 +259,13 @@ ul{
     grid-template-columns: auto;
     justify-content: center;
     justify-items: center;
-    
+    text-align: center;
     align-items: center;
     /* margin-top: ; */
   }
   .tagline{
-    width: 100%;
-    /* font-size: 20px; */
+    width: auto;
+    font-size: 32px;
   }
   .card{
     width: 342px;
@@ -263,7 +280,24 @@ ul{
     font-size: 20px;
   }
   .imagee{
-    width: 100%
+    width: 80%
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+  }
+  .foot2,.foot3,.foot4{
+    text-align: left;
+  }
+  .feature{
+    width: 80%;
+    margin: 16px 0;
+  }
+  .qoruz,.grin{
+    width: 64px;
   }
 
 }
