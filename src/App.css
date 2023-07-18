@@ -53,6 +53,7 @@
   gap: 7px;
   align-items: center;
 margin-top: 16px;
+justify-content: center;
 }
 
 
@@ -259,6 +260,7 @@ ul{
     grid-template-columns: auto;
     justify-content: center;
     justify-items: center;
+    margin: auto;
     text-align: center;
     align-items: center;
     /* margin-top: ; */
@@ -293,11 +295,17 @@ ul{
     text-align: left;
   }
   .feature, .detail{
-    width: 80%;
+    /* width: 80%; */
     margin: 16px 0;
+    font-size: 12px;
+    justify-content: center;
+  }
+  .fea{
+    width: 170px;
   }
   .qoruz,.grin{
-    /* width: 64px; */
+    width: 64px;
+
   }
   .about-desc{
     width: 80%;
@@ -305,5 +313,6 @@ ul{
   }
   .primary-btn{
    justify-content: center;
+   margin: 12px auto;
   }
 }
