@@ -22,7 +22,7 @@ export default function Hero() {
         </button>
         </div>
         <div className="image">
-        <img src={heroimg} alt=""  />
+        <img src={heroimg} alt="" className='imagee' />
         </div>
       </div>
     </div>

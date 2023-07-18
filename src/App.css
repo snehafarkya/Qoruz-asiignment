@@ -242,7 +242,7 @@ ul{
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    margin: 48px 24px;
+    margin: 0 24px;
   }
   .headed{
     display: grid;
@@ -252,7 +252,7 @@ ul{
     text-align: center;
   }
   .nav{
-    width: max-content;
+    width: 100%;
   }
   .container,.about,.reason,.power,.contact,.footer,.tabs{
     display: grid;
@@ -292,12 +292,15 @@ ul{
   .foot2,.foot3,.foot4{
     text-align: left;
   }
-  .feature{
+  .feature, .detail{
     width: 80%;
     margin: 16px 0;
   }
   .qoruz,.grin{
-    width: 64px;
+    /* width: 64px; */
   }
-
+  .about-desc{
+    width: 80%;
+    text-align: center;
+  }
 }
