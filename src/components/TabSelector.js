@@ -5,11 +5,7 @@ export const TabSelector = ({
   children,
   onClick,
 }) => (
-  <button
-    className="btns"
-    onClick={onClick}
-  >
-    
+  <button className="btns" onClick={onClick}>
     {children}
   </button>
 );

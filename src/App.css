@@ -1,4 +1,7 @@
-
+:root{
+  --primary-color:#FF6435;
+  --secondary-color: #170C2A;
+}
 
 .headed{
   margin: auto 160px;
@@ -14,7 +17,7 @@
   align-items: center;
   position: relative;
   padding: 1rem 160px;
-  background-color: #170C2A;;
+  background-color: var(--secondary-color);
   color: white;
 }
 
@@ -67,7 +70,7 @@ select{
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #FF6435;
+  background-color: var(--primary-color);
   color: white;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
@@ -79,7 +82,7 @@ select{
   display: none;
 }
 .hamburger:hover {
-  background-color: #FF6435;
+  background-color: var(--primary-color);
 }
 
 
@@ -98,7 +101,7 @@ select{
   gap: 4px;
 }
 .top{
-  color: #FF6435;
+  color: var(--primary-color);
   font-weight: bold;
 
 }
@@ -114,7 +117,7 @@ select{
   
 }
 .primary-btn{
-  background-color: #FF6435;
+  background-color: var(--primary-color);
   padding: 16px 24px;
   color: white;
   border: none;
@@ -138,7 +141,7 @@ justify-content: center;
 
 }
 .about-head{
-  color: #FF6435;
+  color: var(--primary-color);
   font-weight: bold;
 }
 .compare{
@@ -216,7 +219,7 @@ cursor: pointer;
 }
 .btns:focus{
   border-radius: 1px;
-  border-bottom: 3px solid  #FF6435;
+  border-bottom: 3px solid  var(--primary-color);
 }
 .tab-heading{
   font-size: 32px;
@@ -293,7 +296,7 @@ font-size: 32px;
   justify-content: center;
   display: flex;
   gap: 131px;
-  background-color: #170C2A;
+  background-color: var(--secondary-color);
 }
 .foot1{
   display: block;
@@ -329,7 +332,7 @@ ul{
 }
 .footer-btn{
   background-color: white;
-  color:#FF6435;
+  color:var(--primary-color);
 }
 
 @media screen and (max-width:600px) {
