@@ -462,6 +462,7 @@ ul{
   }
   .card{width: 342px;}
   .fea{width: auto;}
+  .about{margin: auto 24px;}
   .about-desc{width: auto; }
   .tooltip .tooltiptext{
     width: inherit;
