@@ -463,6 +463,9 @@ ul{
   .card{width: 342px;}
   .fea{width: auto;}
   .about-desc{width: auto; }
+  .tooltip .tooltiptext{
+    width: inherit;
+  }
   .data p{font-size: 20px;}
   .imagee{ width: 80%}
   .footer{
