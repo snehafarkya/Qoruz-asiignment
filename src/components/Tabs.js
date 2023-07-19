@@ -39,7 +39,7 @@ export default function Tabs() {
         </TabSelector>
       </nav>
       <div className="tab-desc">
-        <TabPanel hidden={selectedTab !== "account"}>
+        <TabPanel hidden={selectedTab !== "account"} >
           <p className="tab-heading">Discoverability</p>
           <p>
             Qoruz's diverse influencer database, unlike Grin, makes it easier
