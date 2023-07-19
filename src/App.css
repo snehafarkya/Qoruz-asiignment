@@ -349,7 +349,8 @@ margin-top: 48px;
   display: block;
   gap: 28px;
   width: 285px;
-  color: #666;
+  color: #FFF4EE;
+  font-weight: 500;
 }
 .flex-foot-icons{
   display: flex;
