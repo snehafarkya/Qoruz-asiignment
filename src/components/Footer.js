@@ -1,8 +1,13 @@
-import React from 'react'
+import {React,useState} from 'react'
 import logo from '../assets/logo.svg'
 import { social } from './social'
+import dropdown from "../assets/dropdown.svg"
 
 export default function Footer() {
+  const [business,setBusiness] = useState(false);
+  const [creators,setCreators] = useState(false);
+  const [company,setCompany] = useState(false);
+
   return (
     <div>
       <div className="footer">
@@ -18,7 +23,15 @@ export default function Footer() {
               </div>
         </div>
         <div className="foot2">
-          <p className='top'>For Business</p>
+        <p className='top' onClick={() => {
+          setBusiness(!business)
+        }}>For Business <img src={dropdown} alt="" className='foot-image' /> </p>
+        <div
+        className={
+          business ? "footer-menu expanded" : "footer-menu"
+        }
+      >
+         
           <ul className='ul'>
             <li className='list'>
               <a href="" className='link'>Qoruz Business suite</a>
@@ -32,11 +45,9 @@ export default function Footer() {
             <li className='list'>
               <a href="" className='link'>Qoruz Flex</a>
             </li>
-            
-            
-
-          </ul>
+          
           <p className='top'>For influencer</p>
+          
           <div className="foot-btn">
             <button className="primary-btn footer-btn">
               Create my profile <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
@@ -44,9 +55,19 @@ export default function Footer() {
             </svg>
             </button>
             </div>
+            </ul>
+            </div>
+
         </div>
         <div className="foot3">
-        <p className='top'>For Business</p>
+        <p className='top' onClick={() => {
+          setCreators(!creators)
+        }}>For Creators <img src={dropdown} alt="" className='foot-image' /> </p>
+        <div
+        className={
+          creators ? "footer-menu2 expanded" : "footer-menu2"
+        }
+      >
           <ul className='ul'>
             <li className='list'>
               <a href="" className='link'>About us</a>
@@ -68,9 +89,17 @@ export default function Footer() {
             </li>
           
           </ul>
+          </div>
         </div>
         <div className="foot4">
-        <p className='top'>For Business</p>
+        <p className='top' onClick={() => {
+          setCompany(!company)
+        }}>Company <img src={dropdown} alt="" className='foot-image' /> </p>
+        <div
+        className={
+          company ? "footer-menu3 expanded" : "footer-menu3"
+        }
+      >
           <ul className='ul'>
           <li className='list'>
               <a href="" className='link'>Case studies</a>
@@ -95,6 +124,7 @@ export default function Footer() {
             </li>
 
           </ul>
+          </div>
         </div>
       </div>
     </div>

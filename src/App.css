@@ -60,7 +60,7 @@ select{
   font-size: 16px;
   font-weight: 400;
 }
-.hamburger {
+.hamburger  {
   /* // removes default border on button element */
   border: 0;
   height: 40px;
@@ -359,18 +359,20 @@ margin-top: 48px;
 .foot1,.foot2,.foot3,.foot4{
   margin: 48px 0;
 }
-ul{
+.footer-menu ul,.footer-menu2 ul,.footer-menu3 ul{
   text-align: left;
   text-decoration: none;
   list-style: none;
   padding-left: 0;
 
 }
-.list{
+
+.footer-menu .list,.footer-menu2 .list,.footer-menu3 .list{
   text-decoration-style: none;
   text-decoration: none;
   list-style: none;
-  padding: 4px 0px;
+  padding: 4px 0px; 
+
 }
 .link{
   text-decoration-style: none;
@@ -381,6 +383,14 @@ ul{
 .footer-btn{
   background-color: white;
   color:var(--primary-color);
+}
+.foot-image{
+  display: none;
+}
+.foot2 p, .foot3 p, .foot4 p{
+  display: flex;
+  gap: 6px;
+  align-items: center;
 }
 
 @media screen and (max-width:600px) {
@@ -483,9 +493,26 @@ ul{
     text-align: left;
     justify-content: flex-start;
   width: 100%;
+  border-bottom: 1px solid #E2D4F9;
 
+  }.footer  p{
+    text-transform: capitalize;
   }
   .foot1,.foot2,.foot3,.foot4{ margin: 0px 0;}
+  .footer-menu ul, .footer-menu2 ul,.footer-menu3 ul, .footer-menu1 div{
+    position: relative;
+    /* top: 10px; */
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    z-index: 1;
+    height: max-content;
+  }
+  .foot-image{
+    display: flex;
+  }
+  .footer-menu.expanded ul,.footer-menu2.expanded ul,.footer-menu3.expanded ul, .footer-menu1.expanded div{display: block;}
   .feature, .detail{
     /* width: 80%; */
     margin: 16px 0;

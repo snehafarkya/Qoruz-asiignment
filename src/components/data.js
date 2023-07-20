@@ -1,5 +1,6 @@
 import tick from "../assets/right.svg"
 import info from "../assets/info (2).svg"
+// write a css code to generate responsive footer ?
 
 export const data=[
   {
