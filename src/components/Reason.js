@@ -14,7 +14,7 @@ export default function Reason() {
         <Tabs/>
         </div>
         <div className="reasonImage">
-        <img src={reason} alt="" className='imagee' />
+        <img src={reason} alt="" className='power-image' />
         </div>
       </div>
     </div>

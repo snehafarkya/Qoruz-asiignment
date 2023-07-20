@@ -480,6 +480,9 @@ margin-top: 48px;
   }
   .data p{font-size: 20px;}
   .imagee{ width: 80%}
+  .power-image{
+    width: 85%;
+  }
   .footer{
     display: grid;
     grid-template-columns: auto;
@@ -499,6 +502,7 @@ margin-top: 48px;
     text-transform: capitalize;
   }
   .foot1,.foot2,.foot3,.foot4{ margin: 0px 0;}
+  .foot4{margin-bottom: 20px;}
   .footer-menu ul, .footer-menu2 ul,.footer-menu3 ul, .footer-menu1 div{
     position: relative;
     /* top: 10px; */
