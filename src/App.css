@@ -384,6 +384,9 @@ margin-top: 48px;
   background-color: white;
   color:var(--primary-color);
 }
+.footer-btn:hover{
+  background-color: rgba(255,255,255,0.9);
+}
 .foot-image{
   display: none;
 }
@@ -558,6 +561,7 @@ margin-top: 48px;
     display: flex;
     justify-content: left;
   }
+ 
   .data{
     display: flex;
     flex-direction: column;
